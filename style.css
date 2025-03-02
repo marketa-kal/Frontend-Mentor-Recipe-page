@@ -31,7 +31,7 @@ h2 {
     padding-block: 1rem;
 }
 
-.preparation-time h2 {
+h1 {
     font-size: 2rem;
     color: #302d2c;
 }
@@ -41,8 +41,8 @@ h2 {
     color: #854632;
 }
 
-h3 {
-    font-size: 1.4rem;
+.preparation-time h2 {
+    font-size: 1.25rem;
     color: #7b284f;
     font-weight: 600;
     padding-block: 0.5rem;
