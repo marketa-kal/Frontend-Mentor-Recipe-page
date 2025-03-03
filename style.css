@@ -34,7 +34,12 @@ a {
 a:hover,
 a:active {
     color: #f3e6d8;
-    transform: scale(0.5);
+}
+
+@media (min-width: 1024px) {
+    a:hover {
+        color: #f3e6d8;
+    }
 }
 
 
@@ -115,6 +120,7 @@ img {
     margin-block: 0.5rem;
     margin-inline: 1rem;
 }
+
 .preparation-time li::marker {
     color: #7b284f;
 }
@@ -175,7 +181,7 @@ td:nth-child(2) {
 /* ================= footer ================= */
 
 footer {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     text-align: center;
     color: white;
     background-color: #302d2c;
